@@ -1,0 +1,54 @@
+{
+  "name": "MuGöl Haber - Türkiye'nin En Hızlı Haber Platformu",
+  "short_name": "MuGöl Haber",
+  "description": "Güncel haberler, son dakika gelişmeler ve daha fazlası",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#1e40af",
+  "theme_color": "#1e40af",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["news", "magazines"],
+  "shortcuts": [
+    {
+      "name": "Gündem Haberleri",
+      "short_name": "Gündem",
+      "description": "Gündemdeki son haberler",
+      "url": "./?category=gundem",
+      "icons": [
+        {
+          "src": "./icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Spor Haberleri",
+      "short_name": "Spor",
+      "description": "Spor dünyasından haberler",
+      "url": "./?category=spor",
+      "icons": [
+        {
+          "src": "./icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
